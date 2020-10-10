@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+
+
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" id="navbar-name" href="#">Sean Chang</a>
@@ -33,10 +35,62 @@
         </div>
     </nav>
 
+
+    <div class="container-fluid" id="main-container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="jumbotron">
+                    <h1 class="display-4" id="card-title">Contact</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <form>
+                                <div class="form-group">
+                                  <div class="row">
+                                    <div class="col">
+                                        <label for="inputFirstName">First Name</label>
+                                        <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <label for="inputLastName">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"placeholder="name@example.       com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleMessage">Message</label>
+                                    <textarea class="form-control" id="exampleMessage" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
         <h1 id="footer">&copy; Copyright</h1>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" id="navbar-links">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/seanchangx/" target="_blank">LinkedIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/highwolfx" target="_blank">GitHub</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/SeanYChang" target="_blank">Facebook</a>
+              </li>
+            </ul>
+        </div>
     </nav>
-
 </body>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </html>
