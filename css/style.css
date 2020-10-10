@@ -51,7 +51,8 @@ body {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
 }
 
 
@@ -97,4 +98,18 @@ p {
 
 #footer {
     font-size: 1.2rem;
+}
+
+
+/* Adjustments based off viewport size */
+@media screen and (min-width: 1000px) { 
+    #profile-picture{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 420px) { 
+    .thumbnail{
+        width: 300px;
+    }
 }
