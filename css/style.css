@@ -1,3 +1,4 @@
+/* Background Image */
 body {
     background-image: url("../assets/lake-moon.jpg");
     background-size: cover;
@@ -6,6 +7,8 @@ body {
     background-color: rgb(5, 5, 5);
 }
 
+
+/* Navbar Settings*/
 #navbar-name {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
@@ -22,6 +25,8 @@ body {
     font-size: 1.2rem;
 }
 
+
+/* Main Container/Jumbtron Layout */
 #main-container {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -32,6 +37,8 @@ body {
     background: rgba(255, 255, 255, 0.6);
 }
 
+
+/* Main Container Text and Image Formatting*/
 #card-title {
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
@@ -47,19 +54,8 @@ p {
     font-size: 1.2rem;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #3a3a3a;
-}
 
-#footer {
-    font-size: 1.2rem;
-}
-
+/* Portfolio Pictures Thumbnails */
 .thumbnail {
     position: relative;
     width: 350px;
@@ -86,4 +82,19 @@ p {
 .thumbnail img.portrait {
   width: 100%;
   height: auto;
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #3a3a3a;
+}
+
+#footer {
+    font-size: 1.2rem;
 }
