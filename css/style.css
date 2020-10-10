@@ -22,8 +22,8 @@ body {
     font-size: 1.2rem;
 }
 
-#about-me-container {
-    padding-top: 5rem;
+#main-container {
+    padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
@@ -32,7 +32,7 @@ body {
     background: rgba(255, 255, 255, 0.6);
 }
 
-#about-me {
+#card-title {
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -59,4 +59,32 @@ p {
 #footer {
     font-size: 1.2rem;
     margin: 0 auto;
+}
+
+.thumbnail {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);        
+}
+
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
 }
