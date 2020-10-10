@@ -1,0 +1,62 @@
+body {
+    background-image: url("../assets/lake-moon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-color: rgb(5, 5, 5);
+}
+
+#navbar-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: solid;
+    border-color: rgb(155, 155, 155);
+    border-width: 2px;
+}
+
+#navbar-links {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+#about-me-container {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.jumbotron {
+    background: rgb(255, 255, 255); /* This is for ie8 and below */
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#about-me {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#profile-picture {
+    float: left;
+    width: 35%;
+    padding-right: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #3a3a3a;
+}
+
+#footer {
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
