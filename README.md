@@ -3,21 +3,23 @@
 
 ## Description
 
-This second homework assignment was designed to be a portfolio that can be updated as class progresses and more advanced techniques/knowledge are learned. The resulting product was made to look similar to reference images provided, but some artistic liberties were taken due to personal preference.
+This second homework assignment was designed to be a personal portfolio that can be updated as class progresses and more advanced techniques/knowledge are learned. The resulting product was made to look similar to reference images provided, but some artistic liberties were taken due to personal preference.
 
 
 ## Installation
 
-After cloning the repo, run the index.html file to view the website.
+Visit the [deployed webpage](https://highwolfx.github.io/Portfolio/) to view my portfolio online.
+
+Otherwise, you can also choose to clone the repo onto your local machine. After cloning the repo, run the index.html file to view the website.
 
 
 ## Usage
 
 Deployed webpage can be found [here](https://highwolfx.github.io/Portfolio/). The links on the top navigation bar are responsive and will lead to other pages. The links in the bottom of the page, in the footer, are also responsive and will lead to external social media sites.
 
-On the "Portfolio" page, or portfolio.html, the images are 350px x 350px previews of pictures that can be clicked, which would then open the full image in a new tab.
+On the "Portfolio" page, or [portfolio.html](https://highwolfx.github.io/Portfolio/portfolio.html), the images are 350px x 350px previews of pictures that can be clicked, which would then open the full image in a new tab.
 
-In the "Contact" or contact.html page, there are fields to input user information, but they are nonresponsive as of now.
+In the "Contact" or [contact.html](https://highwolfx.github.io/Portfolio/contact.html) page, there are fields to input user information, but they are nonresponsive as of now.
 
 
 ## License
