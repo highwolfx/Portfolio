@@ -1,5 +1,6 @@
 $(document).ready(welcome());
 externalPortfolioLink();
+picturePortfolioModal();
 
 function welcome(){
     $("#welcome-en").fadeIn(2000);
@@ -8,9 +9,22 @@ function welcome(){
 };
 
 function externalPortfolioLink(){
-    $(".carousel-item").each(function(index){
+    $(".coding-portfolio").each(function(index){
         $(this).on("click", function(){
             window.open($(this).find('a').attr('href'));
-        })
-    })
-}
+        });
+    });
+};
+
+function picturePortfolioModal(){
+    $(".picture-portfolio").each(function(index){
+        $(this).on("click", function(){
+            let source = $(this).find('img').attr('src');
+            let title = $(this).find('img').attr('alt');
+            $('#pictureModal').modal('toggle');
+            $('#ModalLabel').text(title);
+            $(".modal-body").empty();
+            $(`<img id='${title}'>`).attr('src', source).addClass('modal-picture').appendTo(".modal-body");
+        });
+    });
+};
