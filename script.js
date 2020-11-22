@@ -10,7 +10,7 @@ function welcome(){
 function externalPortfolioLink(){
     $(".carousel-item").each(function(index){
         $(this).on("click", function(){
-            console.log($(this));
+            window.open($(this).find('a').attr('href'));
         })
     })
 }
