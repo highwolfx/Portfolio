@@ -136,6 +136,11 @@ p {
     padding-top: 1rem;
 }
 
+#contact-info{
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
 
 /* Footer */
 .footer {
